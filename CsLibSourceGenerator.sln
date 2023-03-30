@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibSourceGenerator", "LibSourceGenerator\LibSourceGenerator.csproj", "{3D4025A6-1A3C-43BD-B145-3E3B7D469AD9}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LibCommon", "LibCommon\LibCommon.shproj", "{4707E0DD-527A-42B7-99A3-A0C1E5E43615}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{4BEED524-E26B-4253-9A88-80700AFFB797}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{48CE6D54-FAB8-43D0-B0BA-413A584B2075}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exe", "Exe", "{8DEA3A3E-EBBB-433E-B06B-C9D340C658AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibGame", "LibGame\LibGame.csproj", "{A24843D7-E9C2-4E66-AA02-0B0389B3963C}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LibServer", "LibServer\LibServer.shproj", "{2DE385CB-8545-49AA-A880-AFFE05E8A9C3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LibClient", "LibClient\LibClient.shproj", "{6E5D69E8-48C9-440B-BBD5-36DF17D65BB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D4025A6-1A3C-43BD-B145-3E3B7D469AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4025A6-1A3C-43BD-B145-3E3B7D469AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4025A6-1A3C-43BD-B145-3E3B7D469AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4025A6-1A3C-43BD-B145-3E3B7D469AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BEED524-E26B-4253-9A88-80700AFFB797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BEED524-E26B-4253-9A88-80700AFFB797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BEED524-E26B-4253-9A88-80700AFFB797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BEED524-E26B-4253-9A88-80700AFFB797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24843D7-E9C2-4E66-AA02-0B0389B3963C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24843D7-E9C2-4E66-AA02-0B0389B3963C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24843D7-E9C2-4E66-AA02-0B0389B3963C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24843D7-E9C2-4E66-AA02-0B0389B3963C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D4025A6-1A3C-43BD-B145-3E3B7D469AD9} = {48CE6D54-FAB8-43D0-B0BA-413A584B2075}
+		{4707E0DD-527A-42B7-99A3-A0C1E5E43615} = {48CE6D54-FAB8-43D0-B0BA-413A584B2075}
+		{4BEED524-E26B-4253-9A88-80700AFFB797} = {8DEA3A3E-EBBB-433E-B06B-C9D340C658AF}
+		{A24843D7-E9C2-4E66-AA02-0B0389B3963C} = {48CE6D54-FAB8-43D0-B0BA-413A584B2075}
+		{2DE385CB-8545-49AA-A880-AFFE05E8A9C3} = {48CE6D54-FAB8-43D0-B0BA-413A584B2075}
+		{6E5D69E8-48C9-440B-BBD5-36DF17D65BB5} = {48CE6D54-FAB8-43D0-B0BA-413A584B2075}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12B7BBED-39D9-4A0E-A080-4B6E5F526793}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LibServer\LibServer.projitems*{2de385cb-8545-49aa-a880-affe05e8a9c3}*SharedItemsImports = 13
+		LibCommon\LibCommon.projitems*{4707e0dd-527a-42b7-99a3-a0c1e5e43615}*SharedItemsImports = 13
+		LibClient\LibClient.projitems*{6e5d69e8-48c9-440b-bbd5-36df17d65bb5}*SharedItemsImports = 13
+		LibClient\LibClient.projitems*{a24843d7-e9c2-4e66-aa02-0b0389b3963c}*SharedItemsImports = 5
+		LibCommon\LibCommon.projitems*{a24843d7-e9c2-4e66-aa02-0b0389b3963c}*SharedItemsImports = 5
+		LibServer\LibServer.projitems*{a24843d7-e9c2-4e66-aa02-0b0389b3963c}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
